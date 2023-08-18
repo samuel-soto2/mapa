@@ -22,5 +22,16 @@ public class Ordenar {
             numeros[i] = scanner.nextInt();
         }
         
+        // Algoritmo de ordenamiento de burbuja
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4 - i; j++) {
+                if (numeros[j] > numeros[j + 1]) {
+                    int temp = numeros[j];
+                    numeros[j] = numeros[j + 1];
+                    numeros[j + 1] = temp;
+                }
+            }
+        }
+        
     }
 }
