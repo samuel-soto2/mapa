@@ -32,6 +32,12 @@ public class Ordenar {
                 }
             }
         }
-        
+        System.out.println("A continuacion se muestra los numeros ordenadores de menor a mayor:");
+        for (int num : numeros) {
+            System.out.print(num + " ");
+        }
     }
 }
+
+    
+
