@@ -16,5 +16,11 @@ public class Ordenar {
         Scanner scanner = new Scanner(System.in);
         int[] numeros = new int[5];
         
+        System.out.println("Por favor ingrese los 5 numeros:");
+
+        for (int i = 0; i < 5; i++) {
+            numeros[i] = scanner.nextInt();
+        }
+        
     }
 }
